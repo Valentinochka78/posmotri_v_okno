@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', Inter, Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', "Inter", "Arial", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
@@ -231,9 +231,8 @@ ol {
 }
 
 .content__list {
-  max-width: 399px;
   height: 298px;
-  overflow-y: scroll;
+  overflow: auto;
   position: relative;
 }
 
